@@ -1172,9 +1172,10 @@ font-size: 30px;
     margin-left: -70px;
    }
 }
-@media (max-width:420px) {
+
+    @media (max-width:420px) {
     .header{
-        width: 340%;
+        width: 300%;
     }
     .header_link::after{
         content: '';
@@ -1182,10 +1183,10 @@ font-size: 30px;
         display: block;
         border: 2px solid #fff;
         height: 2px;
-        width: 1150px;
+        width: 1250px;
     }
     .page{
-        min-width: 340%;
+        min-width: 300%;
         height: 2200px;
         
     }
@@ -1196,7 +1197,7 @@ font-size: 30px;
     .menu_item a {
         font-size: 80px;
         padding: 50px;
-        margin-left: 50px;
+        margin-left: 120px;
     }
     .menu-list{
         margin: 0px;
@@ -1211,26 +1212,26 @@ font-size: 30px;
         font-size: 80px;
         text-align: center;
         min-width: 1000px;
-       margin-left:50px;
+       margin-left:150px;
     }
     .main_btn{
  width: 350px;
         height: 150px;
-        margin-left: 400px;
+        margin-left: 480px;
         margin-top: 150px;
     }
     .main_btn a{
      font-size: 7vh;
     }
     .main-block-item{
-        margin-left: 100px;
+        margin-left: 180px;
         font-size: 80px;
         min-width: 1000px;
     }
     .main_block_title{
         font-size: 70px;
-        text-align: center;
-        margin-left: 60px;
+        align-items: center;
+        margin-left: 150px;
         margin-bottom: 0px;
         font-weight: 300;
         min-width: 1000px;
@@ -1241,18 +1242,18 @@ font-size: 30px;
     .main-img {
         display: flex;
        position: absolute;
-        margin-top: 100px;
+        margin-top: 140px;
     }
     .main-img img{
         position: relative;
         width: 500px;
         height: 570px;
-        margin-left: -550px;
+        margin-left: -530px;
         margin-bottom: 50px;
         border: 4px solid #fff;
     }
     .services-title{
-        margin-left: 400px;
+        align-items: center;
         font-size: 100px;
     }
    .services_сomponents-title-1 h3{
@@ -1297,17 +1298,17 @@ font-size: 30px;
    .price_title h3{
     font-size: 80px;
     min-width: 900px;
-    margin-left: 40px;
+    align-items: center;
    }
    .development{
-    width: 340%;
-        height: 1600px;
+    max-width: 450%;
+        height: 2700px;
    }
    .development h2{
-    font-size: 70px;
+    font-size: 110px;
    }
    .dev_title{
-    font-size: 50px;
+    font-size: 80px;
     min-width: 970px;
    }
    .footer_contact{
@@ -1315,16 +1316,17 @@ font-size: 30px;
    }
    .footer_container h2{
   margin-left: 450px;
-  font-size: 50px;
+  font-size: 55px;
+  font-weight: 800;
    }
    .tel p , .email h3{
-    font-size: 44px;
+    font-size: 48px;
    margin-left: -120px;
     text-align: center;
     min-width: 500px;
    }
    .tel a , .email p {
-    font-size: 50px;
+    font-size: 55px;
     margin-left: -70px;
    }
 }

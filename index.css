@@ -1485,6 +1485,53 @@ font-size: 30px;
     margin-left: -70px;
    }
 }
+@media (max-width:418px) {
+    .header{
+        width: 300%;
+    }
+    .header_link::after{
+        content: '';
+        position: absolute;
+        display: block;
+        border: 2px solid #fff;
+        height: 2px;
+        width: 1250px;
+    }
+    .page{
+        min-width: 300%;
+        height: 2200px;
+        
+    }
+    .menu_link{
+        max-width: 200px;
+        margin: 0;
+    }
+    .menu_item a {
+        font-size: 80px;
+        padding: 50px;
+        margin-left: 120px;
+    }
+    .menu-list{
+        margin: 0px;
+    }
+    .main-title{
+        
+        width: 700px;
+        
+    }
+    .main_block_text{
+        margin-top: 650px;
+        font-size: 80px;
+        text-align: center;
+        min-width: 1000px;
+       margin-left:150px;
+    }
+    .main_btn{
+ width: 350px;
+        height: 150px;
+        margin-left: 480px;
+        margin-top: 150px;
+    }
 
 
 

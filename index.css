@@ -1,46 +1,315 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="index.css"></link>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Silkscreen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/cc1438c67e.js" crossorigin="anonymous"></script>
-    <title>Document</title>
-</head>
-<body>
-    <script src="https://kit.fontawesome.com/cc1438c67e.js" crossorigin="anonymous"></script>
-    <div class="wrapper">
-        <div class="container">
-            <header class="header">
-                <div class="header_container">
-                    <a href=""></a>
-                </div>
-                <nav class="header_menu">
-                    <ul>
-                        <li><a href="">Обо мне</a></li>
-                        <li><a href="">Услуги</a></li>
-                        <li><a href="">Цены</a></li>
-                        <li><a href="">Контакты</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main class="main">
-      
-                    <div class="intro">
-                        <div class="intro_video">
-                            <video class="video_media"src="Typing_dark_04_Videvo.mov" loop muted autoplay></video>
-                        </div>
-                    </div>
-                        <div class="main_title">
-                            <h1>Создание сайтов </h1>
-                            <p class="intro1">Верстка с нуля </p>
-                            <p class="intro2">"Бюджетное решение ваших задач"</p>
-                        </div>
-                 </main>
-                <section class="about_me">
-                    <div class="about_me_wrapper">
-                        <div class="about_me_container">
-                            <div class="about_me-title">
+body{
+    background-color: black;
+    min-width: 1170px;
+    height: 100%;
+    line-height: 1;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+
+}
+.container{
+width: 100%;
+max-width: 1140px;
+margin: 0 auto;
+}
+.intro{
+width: 213vh;
+overflow: hidden;
+position:relative;
+}
+
+.header_menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+align-items: center;
+margin-bottom: 30px;
+margin-top: 50px;
+}
+.header_menu li{
+   margin-left: 100px;
+   list-style-type: none;
+   flex-wrap: wrap;
+}
+
+.header_menu a{
+text-decoration: none;
+font-size: 25px;
+color: #fff;
+margin: 0 30px;
+}
+.header_menu a:hover{
+   text-decoration: underline;
+   color: rgb(238, 203, 8);
+	height: 1.5px;
+    }
+    .header_menu li:hover{
+        color: rgb(240, 224, 11);
+    }
+.video_media{
+    position: relative;
+   width: 100%; 
+   height: auto;
+}
+.main{
+    max-width: 1400px;
+}
+.main_title{
+    position: absolute;
+    top:180px;
+    left:200px;
+}
+.main_title h1{
+    background: rgba(19, 18, 18, 0.8);
+    padding: 20px;
+    border-radius: 50px;
+color: #fff;
+font-size: 80px;
+font-family: 'Anton', sans-serif;
+font-weight: 400;
+width: 100%;
+}  
+.intro1{
+    margin-top: 150px;
+    color: #fff;
+    font-size: 40px;
+    background: rgba(29, 28, 28, 0.5);
+    width: 270px;
+}
+.intro2{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 40px;
+    
+}
+.about_me-title{
+    display: flex;
+    position: absolute;
+    margin-top:-100px;
+    z-index: 4;
+    
+}
+.title1{
+   background-color: #fff;
+    margin-left: 250px;
+ padding: 40px;
+   border-radius: 100px;
+   box-shadow: rgb(65, 64, 64,0.5) 5px 15px ;
+   transition: 1s;
+   text-align: center;
+}
+.title1:hover{
+    transform: scale(1.2);
+    box-shadow: rgb(75, 73, 73) 20px 20px; 
+}
+.title2{
+    margin-left: 200px;
+background-color: #fff;
+   padding: 40px;
+   border-radius: 100px;
+   box-shadow: rgb(65, 64, 64,0.5) 5px 15px ;
+   transition: 1s;
+   text-align: center;
+}
+.title2:hover{
+    transform: scale(1.2);
+    box-shadow: rgb(75, 73, 73) 20px 20px; 
+}
+.title1 p,.title2 p{
+    font-size: 25px;
+}
+.title1 h2,.title2 h2{
+    font-size: 35px;
+}
+.mani_title{
+    display: flex;
+
+    margin-top: 20px;
+}
+.mani_title1{
+    transition: 1s;
+    color: #fff;
+    margin-top: 100px;
+   border: 2px solid #fff;
+   max-width: 500px;
+   margin-left: 50px;
+   padding: 40px;
+   border-radius: 50px;
+   text-align: center;
+   font-size:30px ;
+}
+.mani_title2{
+    text-align: center;
+   font-size:30px ;
+    color: #fff;
+    margin-top: 100px;
+   border: 2px solid #fff;
+   max-width: 500px;
+   margin-left: 50px;
+   padding: 40px;
+   border-radius: 50px;
+   transition: 1s;
+}
+.many_text h2{
+    color: #fff;
+    margin-left: 600px;
+    margin-top: 200px;
+    font-size: 60px;
+    font-weight: 700;
+    transition: 1s;
+}
+.many_text h2:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+.mani_title2:hover{
+    transform: scale(1.2);
+    box-shadow: rgb(75, 73, 73) 20px 20px;
+    background: rgb(75, 73, 73,0.3);
+}
+.mani_title1:hover{
+    transform: scale(1.2);
+    box-shadow: rgb(75, 73, 73) 20px 20px; 
+    background: rgb(75, 73, 73,0.3);
+}
+.work-info{
+    margin-left: 30px;
+    margin-top: -200px;
+}
+.work-info1{
+    border-bottom: 80px solid #2F73B6;/*высота трапеции и её фоновый цвет*/
+border-left: 30px solid transparent; /*наклон левой границы*/
+border-right: 30px solid transparent;/*наклон правой границы*/
+height: 0; /*это значение высоты должно быть равным 0*/
+width: 300px;/*ширина трапеции*/
+margin-right: 50px;/*выравнивание блока по центру и отступы сверху и снизу*/
+color:#fff;/*цвет шрифта*/
+text-align:center;/*выравнивание текста по центру*/
+line-height:80px;/*высота строки текста*/
+margin-top: 200px;
+font-size: 20px;
+}
+.work-info2{
+    border-bottom: 80px solid #2F73B6;/*высота трапеции и её фоновый цвет*/
+    border-left: 30px solid transparent; /*наклон левой границы*/
+    border-right: 30px solid transparent;/*наклон правой границы*/
+    height: 0; /*это значение высоты должно быть равным 0*/
+    width: 300px;/*ширина трапеции*/
+    margin-left: 250px;/*выравнивание блока по центру и отступы сверху и снизу*/
+    color:#fff;/*цвет шрифта*/
+    text-align:center;/*выравнивание текста по центру*/
+    line-height:80px;/*высота строки текста*/
+    font-size: 20px;
+    }
+.work-info3{
+    border-bottom: 80px solid #2F73B6;/*высота трапеции и её фоновый цвет*/
+    border-left: 30px solid transparent; /*наклон левой границы*/
+    border-right: 30px solid transparent;/*наклон правой границы*/
+    height: 0; /*это значение высоты должно быть равным 0*/
+    width: 300px;/*ширина трапеции*/
+    margin-left: 450px;/*выравнивание блока по центру и отступы сверху и снизу*/
+    color:#fff;/*цвет шрифта*/
+    text-align:center;/*выравнивание текста по центру*/
+    line-height:80px;/*высота строки текста*/
+    font-size: 20px;
+}
+.work-info4{
+    border-bottom: 80px solid #2F73B6;/*высота трапеции и её фоновый цвет*/
+    border-left: 30px solid transparent; /*наклон левой границы*/
+    border-right: 30px solid transparent;/*наклон правой границы*/
+    height: 0; /*это значение высоты должно быть равным 0*/
+    width: 300px;/*ширина трапеции*/
+    margin-left: 650px;/*выравнивание блока по центру и отступы сверху и снизу*/
+    color:#fff;/*цвет шрифта*/
+    text-align:center;/*выравнивание текста по центру*/
+    line-height:80px;
+    margin-top: -150px;
+    font-size: 20px;
+}
+.work-info5{
+    border-bottom: 80px solid #2F73B6;/*высота трапеции и её фоновый цвет*/
+    border-left: 30px solid transparent; /*наклон левой границы*/
+    border-right: 30px solid transparent;/*наклон правой границы*/
+    height: 0; /*это значение высоты должно быть равным 0*/
+    width: 300px;/*ширина трапеции*/
+    margin-left: 900px;/*выравнивание блока по центру и отступы сверху и снизу*/
+    color:#fff;/*цвет шрифта*/
+    /*выравнивание текста по центру*/
+    line-height:80px;
+    margin-top: -160px; 
+    font-size: 20px;
+}
+.work-info6{
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.contact_container{
+    display: flex;
+    margin-top: 200px;
+    background: rgb(75, 73, 73,0.4);
+    align-items: center;
+    
+}
+.tel_contact{
+color: #fff;
+text-decoration: none;
+font-size: 30px;
+justify-items: center;
+margin-left: 320px;
+}
+.email{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.most-upstairs {
+    height: 68px;
+    margin: 18px 0;
+    margin-top: 200px;
+  }
+  .storona-uveka {
+    width: 0;
+    height: 40px;
+    border: 2px solid #1165ad;
+    position: relative;
+    animation: scroll 1.7s infinite;
+    margin: auto;
+  }
+  .storona-uveka::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    width: 1px;
+    height: 12px;
+    border-top: 10px solid #1165ad;
+    border-left: 6px solid transparent;
+    border-right: 4px solid transparent;
+  }
+  @keyframes scroll {
+    0% {
+    height: 40px;
+    }
+    30% {
+    height: 70px;
+    }
+    60% {
+    height: 40px;
+    }
+  }
+  @media (max-width:320px) {
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .main{
+        width: 100%;
+    }
+  }
+  

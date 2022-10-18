@@ -303,13 +303,131 @@ margin-left: 320px;
     height: 40px;
     }
   }
-  @media (max-width:320px) {
-    .container{
-        width: 100%;
-        height: auto;
-    }
-    .main{
+ @media (max-width:320px) {
+    .intro{
         width: 100%;
     }
+    .main_title h1{
+        white-space: nowrap;
+        font-size: 80px;
+    }
+    .intro1{
+        margin-top: 50px;
+        font-size: 46px;
+        white-space: nowrap;
+        background: rgba(19, 18, 18, 0.8);
+    }
+    .intro2{
+        margin-top: 80px;
+        font-size: 50px;
+        white-space: nowrap;
+    }
+    .about_me,.many,.work,.contact{
+        width: 80%;
+    }
+    .header_menu ul{
+        flex-direction: column;
+    }
+    
+    .mani_title2{
+        width: 50px;
+    }
+    .about_me-title{
+        margin-left: -50px;
+    }
+    .title1,.title2{
+        width: 200px;
+        height: 350px;
+    }
+    .title1 h2,.title2 h2{
+        font-size: 50px;
+    }
+    .title1 p,.title2 p{
+        font-size: 40px;
+    }
+    .many_text {
+        margin-top: 400px;
+        margin-left: -100px;
+        font-size: 50px;
+    }
+    .mani_title{
+        margin-left: 40px;
+    }
+    .mani_title1,.mani_title2{
+        width: 400px;
+        height: 700px;
+    }
+    .mani_title1 h2{
+        white-space:nowrap;
+        font-size: 50px;
+        margin-left: -20px;
+        }
+        .mani_title1 p ,.mani_title2 p{
+            font-size: 45px;
+        }
+    .work-info6{
+        margin-top: 200px;
+        margin-left: 270px;
+        font-size: 56px;
+    }
+    .work-info{
+        margin-top: -90px;
+    }
+    .work-info1{
+        display: block;
+        margin-left: 250px;
+        width: 700px;
+        font-size: 40px;
+        }
+        .work-info2{
+            display: block;
+        margin-left: 250px;
+        width: 700px;
+        font-size: 40px;
+        }
+        .work-info3{
+            display: block;
+            margin-left: 250px;
+            width: 700px;
+            font-size: 46px;   
+        }
+        .work-info4{
+            display: block;
+            margin-left: 250px;
+            width: 700px;
+            font-size: 46px; 
+            margin-top: 0px;  
+        }
+        .work-info5{
+            display: block;
+            margin-left: 250px;
+            width: 700px;
+            font-size: 46px;  
+            margin-top:0px; 
+            text-align: center;
+        }
+        .most-upstairs{
+            display: block;
+            margin-left: 200px;
+            margin-top: -20px;
+            
+        }
+        .storona-uveka::after{
+            height: 80px;
+        }
+        .contact_container{
+            width: 130%;
+            margin-left: -20px;
+        }
+        .tel_contact,.email h2{
+            font-size: 45px;
+            margin-left: 100px;
+            white-space: nowrap;
+        }
+        .email h2{
+            margin-left: -50px;
+        }
   }
+  
+
   
